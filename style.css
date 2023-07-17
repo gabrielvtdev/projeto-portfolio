@@ -126,6 +126,8 @@ a {
   background: var(--bg-techs);
 }
 
+/* experiencias */
+
 #exp {
   display: flex;
   flex-direction: column;
@@ -163,3 +165,4 @@ a {
 #exp span{
     font-weight: 400;
 }
+
