@@ -17,17 +17,24 @@ body {
   background: var(--body-bg-color);
 }
 
+#container div {
+  border-radius: 20px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 #container {
+  padding: 40px 40px;
   display: flex;
   flex-direction: column;
 }
 
 #profile {
-  border: 1px solid red;
   width: 100%;
   max-width: 348px;
   text-align: center;
   padding: 32px 0 49px;
+  margin-bottom: 30px;
 }
 
 #profile h2 {
@@ -47,7 +54,6 @@ body {
 }
 
 #social-info {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   width: 100%;
