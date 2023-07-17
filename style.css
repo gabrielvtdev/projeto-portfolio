@@ -13,8 +13,8 @@
 
 body {
   font-family: "Merriweather Sans", sans-serif;
-  background: var(--body-bg-color);
   color: var(--text-color);
+  background: var(--body-bg-color);
 }
 
 #profile {
@@ -26,4 +26,21 @@ body {
 #profile img {
   width: 128px;
   height: 128px;
+}
+
+#social-info {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 348px;
+  height: 348px;
+}
+
+#social-info a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+#social-info img {
+  font-size: 240px;
 }
