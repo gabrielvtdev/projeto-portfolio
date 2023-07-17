@@ -24,8 +24,8 @@ body {
 
 #profile {
   border: 1px solid red;
-  width: 348px;
-  height: 292px;
+  width: 100%;
+  max-width: 348px;
 }
 
 #profile img {
@@ -37,11 +37,27 @@ body {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  width: 348px;
-  height: 348px;
+  width: 100%;
+  max-width: 348px;
+  padding: 30px 40px;
 }
 
 a {
+  display: flex;
+  flex-direction: unset;
   color: var(--text-color);
   text-decoration: none;
+  line-height: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#social-info img {
+ display: flex;
+  width: 24px;
+  height: 24px;
+  margin: 10px 20px 10px 0px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
 }
