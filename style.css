@@ -171,18 +171,23 @@ a {
 
 #container2 {
   padding-top: 40px;
+  padding-left: 20px;
+}
+
+#container3 {
+  display: flex;
 }
 
 #my-projects {
   display: flex;
-  width: 100%;
   min-width: 952px;
+  height: 86px;
   border-radius: 20px;
   background: var(--bg-cards);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  padding: 30px;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
+  padding: 0px 30px;
 }
 
 #my-projects h2 {
@@ -193,4 +198,22 @@ a {
 #my-projects a {
   font-size: 14px;
   font-weight: 400;
+}
+
+#project-folder {
+  width: 461px;
+  height: 186px;
+  border-radius: 20px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 30px 15px 30px 0px;
+}
+
+#project-folder2 {
+  width: 461px;
+  height: 186px;
+  border-radius: 20px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 30px 0px 30px 15px;
 }
