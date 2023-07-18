@@ -27,6 +27,10 @@ a {
   font-size: 13px;
 }
 
+#content {
+  display: flex;
+}
+
 #container {
   padding: 40px 40px;
   display: flex;
@@ -141,28 +145,52 @@ a {
   font-size: 14px;
 }
 
-#exp-content{
-    margin: 20px 40px 0;
-    width: 175px;
-    height: 243px;
+#exp-content {
+  margin: 20px 40px 0;
+  width: 175px;
+  height: 243px;
 }
 
-
-#exp li{
-    line-height: 20px;
-    font-weight: 700;
-    padding-top: 5px;
+#exp li {
+  line-height: 20px;
+  font-weight: 700;
+  padding-top: 5px;
 }
 
-#exp h2{
+#exp h2 {
   font-weight: 700;
   font-size: 20px;
 }
 
-#exp p{
-    font-weight: 300;
+#exp p {
+  font-weight: 300;
 }
-#exp span{
-    font-weight: 400;
+#exp span {
+  font-weight: 400;
 }
 
+#container2 {
+  padding-top: 40px;
+}
+
+#my-projects {
+  display: flex;
+  width: 100%;
+  min-width: 952px;
+  border-radius: 20px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#my-projects h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#my-projects a {
+  font-size: 14px;
+  font-weight: 400;
+}
