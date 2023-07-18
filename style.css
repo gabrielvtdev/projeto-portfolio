@@ -200,13 +200,15 @@ a {
   font-weight: 400;
 }
 
+/* card-project 1 */
+
 #project-folder {
   width: 461px;
   height: 186px;
   border-radius: 20px;
   background: var(--bg-cards);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin: 30px 15px 30px 0px;
+  margin: 30px 15px 30px 15px;
   padding: 30px;
 }
 
@@ -223,32 +225,105 @@ a {
   margin-right: 16px;
 }
 
-#logo-folder{
+#logo-folder {
   display: flex;
   align-items: center;
   margin-top: 35px;
   margin-bottom: 30px;
 }
 
-#logo-folder img{
+#logo-folder img {
   margin-right: 8px;
 }
 
-#logo-folder a{
+#logo-folder a {
   margin-right: 16px;
 }
 
-#logo-folder span{
+#logo-folder span {
   margin-right: 8px;
   margin-left: 166px;
   background-color: yellow;
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  border: 2px solid #837E9F;
+  border: 2px solid #837e9f;
 }
 
-#logo-folder h4{
+#logo-folder h4 {
   font-size: 14px;
   font-weight: 400;
+}
+
+/* card-project 2 */
+
+#project-folder2 {
+  width: 461px;
+  height: 186px;
+  border-radius: 20px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 30px 15px 30px 15px;
+  padding: 30px;
+}
+
+#project-folder2 p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  padding-top: 20px;
+}
+
+#project-folder2 img {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+#logo-folder2 {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+#logo-folder2 img {
+  margin-right: 8px;
+}
+
+#logo-folder2 a {
+  margin-right: 16px;
+}
+
+#logo-folder2 span {
+  margin-right: 8px;
+  margin-left: 166px;
+  background-color: yellow;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #837e9f;
+}
+
+#logo-folder2 h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* recent posts */
+
+#container4 {
+  display: flex;
+  border-radius: 20px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 952px;
+  height: 86px;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+#container4 h2 {
+  font-size: 20px;
+  font-weight: 700;
 }
