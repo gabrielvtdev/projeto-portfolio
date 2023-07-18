@@ -207,13 +207,48 @@ a {
   background: var(--bg-cards);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   margin: 30px 15px 30px 0px;
+  padding: 30px;
 }
 
-#project-folder2 {
-  width: 461px;
-  height: 186px;
-  border-radius: 20px;
-  background: var(--bg-cards);
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin: 30px 0px 30px 15px;
+#project-folder p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  padding-top: 20px;
+}
+
+#project-folder img {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+#logo-folder{
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+#logo-folder img{
+  margin-right: 8px;
+}
+
+#logo-folder a{
+  margin-right: 16px;
+}
+
+#logo-folder span{
+  margin-right: 8px;
+  margin-left: 166px;
+  background-color: yellow;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #837E9F;
+}
+
+#logo-folder h4{
+  font-size: 14px;
+  font-weight: 400;
 }
