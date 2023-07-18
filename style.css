@@ -29,10 +29,12 @@ a {
 
 #content {
   display: flex;
+  justify-content: center;
+
 }
 
 #container {
-  padding: 40px 40px;
+  padding: 40px 40px 0px 0px;
   display: flex;
   flex-direction: column;
 }
